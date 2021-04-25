@@ -1,0 +1,22 @@
+.photostyle{
+  /* display: flex;
+  justify-content: center; */
+  display:block; margin:0 auto;
+  height: 600px;
+  width: 400px;
+}
+
+.txt{
+
+  color: rgb(24, 22, 22);
+  padding: 10px;
+  font-family: Arial;
+  justify-content: center;
+  font-weight: bold;
+  font-size: x-large;
+  align-items: center;
+}
+
+.button{
+  color: #c1e2b3;
+}

@@ -1,0 +1,22 @@
+.cardbody{
+  display: flex;
+
+  justify-content: center;
+}
+
+.demo-5-item{
+  left:35%;
+  margin-left:-50px;
+
+}
+
+.demo-6-item{
+  left:20%;
+  margin-right:-50px;
+
+}
+
+.textc {
+  width: 1000px;
+  left:20%;
+}

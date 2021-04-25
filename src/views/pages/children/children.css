@@ -1,0 +1,67 @@
+.photoA{
+
+
+    justify-content: center;
+    display:block;
+    height: 270px;
+    width: 180px;
+}
+
+.txt{
+
+  color: rgb(24, 22, 22);
+  padding: 10px;
+  font-family: Arial;
+  justify-content: center;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+
+.photo{
+  text-align: center;
+}
+
+.intro{
+  float:right;
+  width:50%;
+}
+
+.grid{
+  display:grid;
+  /*grid-t-rows:200px 200px;*/
+  /*grid-template-columns: 200px 20% 1fr 1fr;*/
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(5,1fr);
+  row-gap:20px;
+  column-gap:20px;
+  align-item:center;
+  justify-items: center;
+}
+
+.ad{
+  height:300px;
+  text-align: center;
+
+}
+
+/*.bold{*/
+/*  font-weight:bold;*/
+/*  color:black;*/
+/*  padding: 0px 50px;*/
+/*  font-size:14px;*/
+/*}*/
+
+/*.bo{*/
+/*  alink:black;*/
+/*}*/
+
+/*.card{*/
+/*  height: 380px;*/
+/*  width:200px;*/
+/*}*/
+
+.background{
+  height:1000px;
+  width:100%;
+}

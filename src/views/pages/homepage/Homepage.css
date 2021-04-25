@@ -1,0 +1,15 @@
+.photostyle{
+    /* display: flex;
+    justify-content: center;
+    margin-left: 15px 0; */
+    height: 100px;
+    width: 50px;
+}
+
+.txt{
+  background-color: #282c34;
+  color: white;
+  padding: 30px;
+  font-family: Arial;
+  text-align: center;
+}

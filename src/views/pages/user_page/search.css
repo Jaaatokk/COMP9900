@@ -1,0 +1,76 @@
+.sidebar_avatar{
+  margin: 10px;
+  margin-right: 150px;
+  margin-left:300px;
+  width: 14%;
+}
+.avatar{
+  width: 100%;
+}
+
+.header_info{
+  text-size-adjust: 20px;
+}
+
+.brand{
+  padding: 5px 20px;
+}
+
+.subheader{
+  display: flex;
+  justify-content: center;
+  font-size: 30px ;
+  font-weight: bold;
+  color: brown;
+}
+.author_cheader{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.link{
+  color: black;
+}
+.link:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color: #3399FF;
+  text-shadow: 0 0 3px #3399FF;
+}
+.info_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.brand{
+  padding: 5px 20px;
+}
+.brand:hover{
+  cursor: pointer;
+  color: #3399FF;
+  text-shadow: 0 0 3px #3399FF;
+}
+.card_header{
+  background-color: pink;
+}
+.carousel{
+  height: 500px;
+}
+.hot_author{
+  border: 1px solid gray;
+  background: linear-gradient(to right, #fff2e5 0%, #fbffd6 100%);;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+
+.keyword{
+  background-color: lightgreen;
+  border-radius: 4px;
+  padding: 0 5px;
+}
+
+

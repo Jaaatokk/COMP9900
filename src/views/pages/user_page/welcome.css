@@ -1,0 +1,13 @@
+.container{
+    background-image: url('./welcome.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: calc(100vh);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.loginbutton{
+    margin-top: 50%;
+}

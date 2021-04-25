@@ -1,0 +1,41 @@
+body{
+    background: #99BBFF;
+}
+
+h1{
+    text-align: center;
+    top: 15%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#d1 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+
+}
+
+.inp1{
+    margin-top: 20px;
+    width: 40%;
+    height: 35px;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+.inp2{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 30%;
+    height: 35px;
+    font-size: 15px;
+    background-color: #00AA00;
+    font-weight: 600;
+    color: white;
+}

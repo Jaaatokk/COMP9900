@@ -1,0 +1,38 @@
+<!-- chat/templates/chat/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Chat Rooms</title>
+    <link rel="stylesheet" href="./indx.css">
+</head>
+<body>
+<!--    What chat room would you like to enter?<br>-->
+<!--    <input id="room-name-input" type="text" size="100"><br>-->
+    <h1>Please choose your shop assistant</h1>
+    <div id="d1">
+        <input class="inp1" id="room-name-input" type="text" size="10">
+        <input class="inp2" id="room-name-submit" type="button" value="Go!">
+    </div>
+
+
+<!--    [other salesclerks are coming soon......]-->
+
+    <script>
+        if(document.querySelector('#room-name-input').value == ''){
+            document.querySelector('#room-name-input').value = 'Marvelbot'
+        }
+        document.querySelector('#room-name-input').focus();
+        document.querySelector('#room-name-input').onkeyup = function(e) {
+            if (e.keyCode === 13) {  // enter, return
+                document.querySelector('#room-name-submit').click();
+            }
+        };
+
+        document.querySelector('#room-name-submit').onclick = function(e) {
+            var roomName = document.querySelector('#room-name-input').value;
+            window.location.pathname = '/chat/' + roomName + '/';
+        };
+    </script>
+</body>
+</html>
